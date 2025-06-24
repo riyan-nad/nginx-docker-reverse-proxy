@@ -49,5 +49,5 @@ To build and run the entire system using Docker Compose:
 2. Run the following command:
    docker-compose up --build
 
-You can view the Docker Compose configuration here
+You can view the Docker Compose configuration here https://github.com/riyan-nad/nginx-docker-reverse-proxy/blob/main/docker-compose.yml
 
