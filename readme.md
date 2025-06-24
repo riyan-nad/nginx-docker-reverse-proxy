@@ -25,10 +25,10 @@ This project sets up a simple system with:
 **How Routing Works**
 
 When you open your browser and visit:
-- http://localhost:8080/service1/hello
+- http://localhost:8080/service1/ping
   ➤ You talk to Service 1 (the Go app)
 
-- http://localhost:8080/service2/hello
+- http://localhost:8080/service2/ping
   ➤ You talk to Service 2 (the Flask app)
 
 1. All traffic goes through the Nginx reverse proxy, which listens on localhost:8080.
