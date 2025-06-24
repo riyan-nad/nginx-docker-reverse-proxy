@@ -36,3 +36,18 @@ When you open your browser and visit:
    - If the path starts with /service1, it sends the request to the Go service.
    - If it starts with /service2, it sends it to the Flask service.
 3. Docker lets Nginx talk to the services using their container names like service1 and service2. So everything looks like it's coming from one place (localhost:8080), but Nginx secretly routes them to the correct backend.
+
+
+**Setup Instructions**
+
+To build and run the entire system using Docker Compose:
+
+1. Clone the repository:
+   git clone https://github.com/riyan-nad/nginx-docker-reverse-proxy.git
+   cd nginx-docker-reverse-proxyRun the following command:
+
+2. Run the following command:
+   docker-compose up --build
+
+You can view the Docker Compose configuration here
+
