@@ -40,7 +40,6 @@ When you open your browser and visit:
 
 **Project Structure**
 
-.
 ├── docker-compose.yml
 ├── nginx
 │   ├── default.conf
